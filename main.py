@@ -12,7 +12,7 @@ scaler = preprocessing.StandardScaler()
 df[['RHOB_T', 'NPHI_T', 'GR_T', 'PEF_T', 'DTC_T']] = (
     scaler.fit_transform(df[['RHOB', 'NPHI', 'GR', 'PEF', 'DTC']]))
 
-
+# als;dfk;
 def optimize_kmeans(data, max_k):
     means = []
     inertias = []
