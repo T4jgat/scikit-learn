@@ -1,0 +1,7 @@
+env-vars/
+scikit-env/
+scikit-env-wsl/
+.idea/
+
+.env
+
