@@ -10,7 +10,7 @@ from sqlalchemy import create_engine
 
 dotenv.load_dotenv()
 
-db_url = os.getenv("DATABASE_URL") + "kmeans"
+db_url = os.getenv("POSTGRES_URL") + "kmeans"
 
 engine = create_engine(db_url)
 

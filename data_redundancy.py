@@ -9,7 +9,7 @@ import os
 
 dotenv.load_dotenv()
 
-db_url = os.getenv("DATABASE_URL") + "customer_order_data_redundancy_test"
+db_url = os.getenv("POSTGRES_URL") + "customer_order_data_redundancy_test"
 
 engine = create_engine(db_url)
 query_customers = '''
